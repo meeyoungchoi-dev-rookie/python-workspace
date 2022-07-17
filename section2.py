@@ -56,3 +56,6 @@ print(int(random() * 10) + 1)
 print(int(random() * 45) + 1)
 
 print(randrange(1, 46))
+
+# 퀴즈2
+print(randrange(4, 28))
