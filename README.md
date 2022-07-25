@@ -19,4 +19,7 @@
 ### 3. 문자열 처리
 + 문자열
 + 문자열 자르기 - slicing
-+ 문자열 처리함수 - index , find , count
++ 문자열 처리함수 - replace , index , find , count
+
+### 4. 자료구조
++ 리스트

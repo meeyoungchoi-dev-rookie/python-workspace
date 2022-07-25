@@ -39,3 +39,18 @@ print(python.find("Java")) # 원하는 값을 찾을 수 없을때 : -1
 #print(python.index("Java")) # 원하는 값을 찾을 수 없는 경우 ValueError 발생
 
 print(python.count("n"))
+
+# 문자열 포맷
+# 방법 1
+print("나는 %d살입니다." % 20)
+print("나는 %s를 좋아해요." % "파이썬")
+print("Apple은 %c로 시작해요." % "A")
+
+print("나는 %s살입니다." % 20)
+print("나는 %s색과 %s색을 좋아해요." % ("파란", "빨간"))
+
+# 방법 2
+print("나는 {}살입니다." .format(20))
+print("나는 {}색과 {}색을 좋아해요.".format("파란", "빨간"))
+print("나는 {0}색과 {1}색을 좋아해요.".format("파란", "빨간"))
+print("나는 {1}색과 {0}색을 좋아해요.".format("파란", "빨간"))
