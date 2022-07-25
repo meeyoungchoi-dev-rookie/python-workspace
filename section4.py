@@ -53,3 +53,38 @@ print(num_list)
 # 모두 지우기
 num_list.clear();
 print(num_list)
+
+# 딕셔너리
+# key에 대한 중복이 허용되지 않는다
+cabinet = {3:"유재석", 100:"김태호"}
+print(cabinet[3])
+print(cabinet[100])
+print(cabinet.get(3))
+
+# 없는 키를 사용하여 value를 가져오려는 경우
+#print(cabinet[5]) # key에 해당하는 값이 없으면 에러가 발생한다
+#print(cabinet.get(5)) # 값이 없으면 None
+
+print(3 in cabinet)
+print(3 in cabinet)
+
+cabinet = {"A-3":"유재석", "B-100":"김태호"}
+print(cabinet["A-3"])
+print(cabinet["B-100"])
+
+# print(cabinet)
+cabinet["A-3"] = "김종국"
+cabinet["C-20"] = "조세호"
+print(cabinet)
+
+# key들만 출력
+print(cabinet.keys())
+
+# value들만 출력
+print(cabinet.values())
+
+# key , value 함께 출력
+print(cabinet.items())
+
+# 삭제
+print(cabinet.clear)
